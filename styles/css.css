@@ -1,0 +1,126 @@
+body{
+    border: 0;
+   margin: 0;
+}
+.title{
+    text-align: center;
+}
+.containers{
+    margin:  0 auto;
+    width: 70%;;
+}
+/* ----------------------------------------------------------------- */
+
+.header{
+    display: flex;
+    justify-content: space-around ;
+
+    background-color: black;
+
+}
+.logo{
+    color: azure;
+    font-size: 30px;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style-type: none;
+    padding-left: 10px;
+    padding-top: 10px;
+   
+}
+
+.menu a{
+    text-decoration: none;
+    color: wheat;
+}
+
+
+
+.aboutMe{
+   background-color: aliceblue;
+}
+.about_text{
+    text-align: center;
+    padding: 40px;
+}
+.about_text h1{
+    margin: 0;
+}
+.about_text p{
+    font-size: 20px;
+}
+
+.aboutMeText{
+   text-align: center;
+   padding: 40px;
+    background-color: blueviolet;
+}
+.aboutMeText p{
+    margin: 0;
+    color: white;
+    font-size: 20px;
+}
+/* ----------------------------------------------------------------------------- */
+
+
+.my_skills{
+    display: flex;
+    justify-content: space-around;
+}
+.skill{
+   text-align: center;
+    width: 100%;
+    font-size: 20px;
+}
+
+.Html {
+    background-color: orange;
+}
+ .Css {
+    background-color: blue;
+    color: white;
+
+}
+ .JavaScript {
+    background-color: yellow;
+}
+ .React {
+    background-color: blue;
+    color: white;
+}
+
+/* -------------------------------------------------------------------- */
+
+.my_project{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    gap: 5px;
+    text-align: center;
+}
+.porgets{
+    padding: 30px;
+    background-color: brown;
+}
+
+
+/* ------------------------------------------------------------------------ */
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 70px;
+   
+}
+
+.footer {
+    display: flex;
+    justify-content:space-around;
+    padding-top: 15px;
+   
+}
+.footers{
+     height: 150px;
+}
